@@ -1,0 +1,68 @@
+/*Estilos geneales*/
+
+* {box-sizing: border-box;}
+
+html { scroll-behavior: smooth; }
+
+body { background-color: #391542; }
+
+h1{
+    font-size: 5rem;
+    color: #2341A0;
+    text-shadow: 1px 1px 5px black;
+}
+
+h5{
+    font-size: 1.3rem;
+    color: white;
+}
+
+select option { scroll-behavior: smooth; }
+
+.bg-primary{
+    border-bottom-right-radius: 120px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 80px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+ .img{
+    cursor: pointer;
+    margin-top: 90px;
+    animation: sube-y-baja 2.10s forwards ease-out;
+}
+
+@keyframes sube-y-baja {
+
+    to { transform: translateY(-25%) translatex(20%); }
+    
+}
+
+.google{ margin-top: 0; }
+
+@media (max-width: 992px ) {
+
+    .google { margin-top: 60px; }
+
+    .padre{ height: 400px; }
+}
+
+.b{ margin-bottom: 110px; }
+
+.b button{ justify-content: end; }
+
+
+/*libreria particles.js*/
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.cont {
+    position: relative;
+    z-index: 99;
+}

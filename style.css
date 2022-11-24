@@ -1,0 +1,71 @@
+/*Estilos Generales*/
+
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(images/5430940.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: #0D6EFD;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 20ch;
+    cursor: pointer;
+
+    animation: typing 1750ms steps(20), blink .5s infinite step-end alternate;
+    overflow-y: hidden;
+
+}
+
+.bg-primary {
+    animation: entrada 0.80s forwards ease-out;
+    cursor: pointer;
+}
+
+.cont img {
+    animation: bajada 4s forwards ease-out;
+    width: 400px;
+}
+
+/*Animaciones*/
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+
+}
+
+@keyframes entrada {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bajada {
+    from {
+        transform: translatey(-100%);
+    }
+}
