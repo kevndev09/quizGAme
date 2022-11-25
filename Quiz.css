@@ -17,8 +17,6 @@ h5{
     color: white;
 }
 
-select option { scroll-behavior: smooth; }
-
 .bg-primary{
     border-bottom-right-radius: 120px;
     border-top-right-radius: 70px;
