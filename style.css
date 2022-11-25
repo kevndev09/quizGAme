@@ -21,7 +21,7 @@ h2 {
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 20ch;
+    width: 19ch;
     cursor: pointer;
 
     animation: typing 1750ms steps(20), blink .5s infinite step-end alternate;
